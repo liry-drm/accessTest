@@ -77,7 +77,7 @@ public class AccessUtils {
 	
 	public static void main(String argv[]) {
 		String sql="select * from User ";
-		String dbPath="C:\\Users\\admin\\Desktop\\YZD.MDB";
+		String dbPath="..\\test.accdb";
 		String[] fields= {"sUser"};
 		try {
 			List<Map<String,Object>> list = qryData(dbPath,sql,fields);
